@@ -1,0 +1,47 @@
+<?php
+?>
+
+<!DOCTYPE>
+<html>
+	<head>
+	<link rel="stylesheet" href="index.css" />
+		<title>Sample web title that appears in the search bar</title>
+	</head>
+	
+	<body class = "all_page">
+		<div class = "main_heading">
+			<h1 align = center><big><b>Sample website name in bold letters</big></b></h1>
+		</div>
+		<div align = "center">
+			<button class = "login_screen1" onclick="window.location.href='registration.php'" type = "button">Sign Up</button>
+			<button class = "login_screen2" onclick="window.location.href='login.php'" type = "button">Login</button>
+		</div>
+		<!-- <div class = "login_box">
+			<p align = center><big><b>please enter login information below</b></big></p>
+		
+			<form align = "center">
+			<input class = "login_box1", type = "Email", name = "mailID", placeholder = "Email"></input></p>
+			<input class = "login_box2", type = "Password", name = "password", placeholder = "Password"></input></p>
+			<input class = "submits", type = "Submit", name = "Submit"></input></p>
+			</form>
+		</div> -->
+		
+		<h3 class = "contactinfo" align = "center">contact us at</h3>
+		
+		<div class = "contactList" align = "center">
+			<a href = "google.com"><button class = "InstaB">I</button></a>
+			<a href = "twitter.com"><button class = "TwitterB">T</button></a>
+			<a href = "github.com"><button class = "GithuB">G</button></a>
+			<a href = "linkedin.com"><button class = "LinkedInB">L</button></a>
+			<a href = "gmail.com"><button class = "MailB">M</button></a>
+		</div>
+		
+	<footer>
+		
+	</footer>
+	
+	</body>
+</html>
+
+
+
