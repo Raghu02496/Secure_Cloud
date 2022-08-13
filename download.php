@@ -14,7 +14,7 @@ require("validsession.php");
     <form name="" class="" action="downloadlogic.php" onsubmit="" method="get">
 <?php
     // $path = 'C:\Folder\\';
-    $path    = "\\\\DESKTOP-TPUIMSV\\uploaded_files\\".$_SESSION['email'].'\\';
+    $path    = "\\\\DESKTOP\\uploaded_files\\".$_SESSION['email'].'\\';
     $files = scandir($path);
     $files = array_diff(scandir($path), array('.', '..'));
     foreach($files as $file){
