@@ -1,8 +1,8 @@
 <?php
 require("validsession.php");
 
-if (!file_exists('\\\\DESKTOP-TPUIMSV\\uploaded_files\\'.$_SESSION['email'])) {
-  mkdir('\\\\DESKTOP-TPUIMSV\\uploaded_files\\'.$_SESSION['email'], 0777, true);
+if (!file_exists('\\\\DESKTOP\\uploaded_files\\'.$_SESSION['email'])) {
+  mkdir('\\\\DESKTOP\\uploaded_files\\'.$_SESSION['email'], 0777, true);
 }
 
 ?>
