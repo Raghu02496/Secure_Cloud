@@ -8,10 +8,7 @@ if (isset($_POST['uploadBtn']) && $_POST['uploadBtn'] == 'Upload') {
  
     // Configure upload directory and allowed file types
     
-    // $upload_dir = "\\\\192.168.1.2\\uploaded_files\\ ";
-    // $upload_dir = "C:\Folder\uploaded_files\ ";
-    
-    $upload_dir = "\\\\DESKTOP-TPUIMSV\\uploaded_files\\".$_SESSION['email'].'\\';
+    $upload_dir = "\\\\DESKTOP\\uploaded_files\\".$_SESSION['email'].'\\';
     $allowed_types = array('jpg', 'png', 'jpeg', 'gif','pdf','mp4');
      
     // Define maxsize for files i.e 2MB
