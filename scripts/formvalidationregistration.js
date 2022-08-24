@@ -1,4 +1,3 @@
-
 function validate() {
 
     var password = regform.password.value;
