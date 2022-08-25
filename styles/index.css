@@ -1,90 +1,140 @@
-body{
-	margin: 0;
-	padding: 0;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	min-height: 100vh;
-	font-family: 'Jost', sans-serif;
-	background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
-}
-.main{
-	width: 350px;
-	height: 500px;
-	background: red;
-	overflow: hidden;
-	background: url("https://doc-08-2c-docs.googleusercontent.com/docs/securesc/68c90smiglihng9534mvqmq1946dmis5/fo0picsp1nhiucmc0l25s29respgpr4j/1631524275000/03522360960922298374/03522360960922298374/1Sx0jhdpEpnNIydS4rnN4kHSJtU1EyWka?e=view&authuser=0&nonce=gcrocepgbb17m&user=03522360960922298374&hash=tfhgbs86ka6divo3llbvp93mg4csvb38") no-repeat center/ cover;
-	border-radius: 10px;
-	box-shadow: 5px 20px 50px #000;
-}
-#chk{
-	display: none;
-}
-.signup{
-	position: relative;
-	width:100%;
-	height: 100%;
-}
-label{
-	color: #fff;
-	font-size: 2.3em;
-	justify-content: center;
-	display: flex;
-	margin: 60px;
-	font-weight: bold;
-	cursor: pointer;
-	transition: .5s ease-in-out;
-}
-input{
-	width: 60%;
-	height: 20px;
-	background: #e0dede;
-	justify-content: center;
-	display: flex;
-	margin: 20px auto;
-	padding: 10px;
-	border: none;
-	outline: none;
-	border-radius: 5px;
-}
-.login-button{
-	width: 60%;
-	height: 40px;
-	margin: 10px auto;
-	justify-content: center;
-	display: block;
-	color: #fff;
-	background: #573b8a;
-	font-size: 1em;
-	font-weight: bold;
-	margin-top: 20px;
-	outline: none;
-	border: none;
-	border-radius: 5px;
-	transition: .2s ease-in;
-	cursor: pointer;
-}
-button:hover{
-	background: #6d44b8;
-}
-.login{
-	height: 460px;
-	background: #eee;
-	border-radius: 60% / 10%;
-	transform: translateY(-180px);
-	transition: .8s ease-in-out;
-}
-.login label{
-	color: #573b8a;
-	transform: scale(.6);
+.main_heading {
+    color: Cyan;
+    font-family: Century Gothic;
+    margin: 50px 0px 20px 0px;
 }
 
-#chk:checked ~ .login{
-	transform: translateY(-500px);
+.login_screen1 {
+    margin: 50px 0px -30px 0px;
+    font: 20px Century Gothic;
+    ;
+    background-color: gold;
+    border: 3px outset white;
+    border-radius: 4px;
+    padding: 10px;
 }
-#chk:checked ~ .login label{
-	transform: scale(1);	
+
+.login_screen2 {
+    margin: 50px 0px -30px 0px;
+    font: 20px Century Gothic;
+    background-color: orangered;
+    border: 3px outset white;
+    border-radius: 4px;
+    padding: 11px 21px 11px 21px;
 }
-#chk:checked ~ .signup label{
-	transform: scale(.6);
+
+.login_screen1:hover {
+    background-color: white
+}
+
+.login_screen2:hover {
+    background-color: white
+}
+
+.login_box {
+    margin: 60px 35% 0px 35%;
+    color: black;
+    font-family: Century Gothic;
+    border: 3px solid white;
+    border-radius: 3px;
+    background: linear-gradient(to top, gold, white);
+    padding: 10px;
+}
+
+.login_box1 {
+    border: 1px none;
+    border-radius: 3px;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+.login_box2 {
+    border: 1px none;
+    border-radius: 3px;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+.login_submit {
+    margin-top: 15px;
+}
+
+.all_page {
+    background: linear-gradient(to bottom, MediumBlue, white);
+}
+
+.InstaB {
+    padding: 10px 14px 10px 15px;
+    border-style: solid;
+    border-radius: 100%;
+    color: white;
+    font: bold 10px verdana;
+    background-color: deeppink;
+    margin: 8px;
+}
+
+.InstaB:hover {
+    background-color: gold
+}
+
+.TwitterB {
+    padding: 10px 13px 10px 13px;
+    border-style: solid;
+    border-radius: 100%;
+    color: white;
+    font: bold 10px verdana;
+    background-color: deepskyblue;
+    margin: 8px;
+}
+
+.TwitterB:hover {
+    background-color: gold
+}
+
+.GithuB {
+    padding: 10px 13px 10px 12px;
+    border-style: solid;
+    border-radius: 100%;
+    color: white;
+    font: bold 10px verdana;
+    background-color: black;
+    margin: 8px;
+}
+
+.GithuB:hover {
+    background-color: gold
+}
+
+.LinkedInB {
+    padding: 10px 14px 10px 14px;
+    border-style: solid;
+    border-radius: 100%;
+    color: white;
+    font: bold 10px verdana;
+    background-color: dodgerblue;
+    margin: 8px;
+}
+
+.LinkedInB:hover {
+    background-color: gold
+}
+
+.MailB {
+    padding: 10px 12px 10px 12px;
+    border-style: solid;
+    border-radius: 100%;
+    color: red;
+    font: bold 10px verdana;
+    background-color: white;
+    margin: 8px;
+}
+
+.MailB:hover {
+    background-color: gold
+}
+
+.contactinfo {
+    font: bold 30px Century Gothic;
+    color: black;
+    margin-top: 65px;
 }
