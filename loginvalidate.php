@@ -24,7 +24,7 @@ if($count == 1){
 else{ 
 echo '<script language="javascript">';
 echo 'alert("Inavlid UserName Or Password");';
-echo 'window.location.href="index.html";';
+echo 'window.location.href="regorlog.html";';
 echo '</script>';
 
     //echo "<h1> Login failed. Invalid username or password.</h1>";  
