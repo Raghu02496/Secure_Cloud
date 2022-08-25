@@ -1,6 +1,6 @@
 # Secure Cloud
 
-This is a cloud storage Project(just simulating your external hdd or laptop connected through lan as cloud).
+This is a cloud storage Project(just simulating your external hdd or laptop as cloud).
 for this project to work :
 1) you need xampp server.
 2) you need to create the database with the name login_database ,in mysql(xampp) by copying the text in database_structure.txt .
